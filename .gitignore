@@ -1,0 +1,42 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore all WordPress core files
+*.log
+*.sql
+*.bak
+
+# Ignore the build directory
+/build/
+dist/
+
+# Ignore node modules (if using npm for assets)
+node_modules/
+
+# Ignore compiled CSS and JS files
+/assets/css/*.css
+/assets/js/*.js
+
+# Ignore IDE and editor files
+*.swp
+*.swo
+*.DS_Store
+*.idea/
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore local configuration files
+wp-config.php
+wp-config-sample.php
+
+# Ignore backups
+*.bak
+*.old
+*.orig
+
+# Ignore Thumbnails
+thumbs.db
